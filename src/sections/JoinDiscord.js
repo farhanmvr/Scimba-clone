@@ -4,24 +4,23 @@ const JoinDiscord = () => (
   <section
     id="join-discord-section"
     className="position-relative text-center mt-4 pt-5"
-    style={{ height: '350px' }}
   >
     <div className="container">
       <img
-        className="position-absolute bottom-0 start-0 end-0 mx-auto"
+        className="position-absolute bottom-0 start-0 end-0 mx-auto bg-1"
         style={{ height: 'auto', width: '40%', zIndex: '-1' }}
         src="https://scrimba.com/static/art/shape-light-coral.svg"
         alt=""
       />
       <img
-        className="position-absolute bottom-0 start-0 end-0 mx-auto"
+        className="position-absolute bottom-0 start-0 end-0 mx-auto bg-2"
         style={{ height: 'auto', width: '30%', zIndex: '-1' }}
         src="https://scrimba.com/static/art/shape-coral.svg"
         alt=""
       />
       <img
-        className="position-absolute bottom-0 start-0 end-0 mx-auto"
-        style={{ height: 'auto', width: '40%', zIndex: '-1' }}
+        className="position-absolute bottom-0 start-0 end-0 mx-auto bg-crowd"
+        style={{ height: 'auto', zIndex: '-1' }}
         src="https://scrimba.com/static/art/peep-crowd.svg"
         alt=""
       />

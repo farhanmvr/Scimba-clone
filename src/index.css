@@ -15,7 +15,8 @@ button.btn.btn-outline-dark.bg-white:hover {
 }
 
 button.btn.btn-primary:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 255, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 255, 0.2),
+    0 6px 20px 0 rgba(0, 0, 255, 0.19);
   transform: translate(0, -5px);
 }
 
@@ -198,6 +199,27 @@ header {
 }
 
 /* COURSE SECTIONS ENDS */
+
+/* JOIN DISCORD STARTS */
+
+#join-discord-section{
+  height: 350px;
+}
+
+#join-discord-section .bg-crowd {
+  width: 40%;
+}
+
+@media (max-width: 770px) {
+  #join-discord-section{
+    height: 250px;
+  }
+  #join-discord-section .bg-crowd {
+    width: 50%;
+  }
+}
+
+/* JOIN DISCORD ENDS */
 
 /* FROM FOUNDERS STARTS */
 
