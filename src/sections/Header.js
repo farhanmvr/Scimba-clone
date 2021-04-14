@@ -38,10 +38,11 @@ const Header = () => {
           </h1>
           <h3>
             Our career path helps motivated students become hireable frontend
-            developers for{' '}
-            <span className="fw-bold">1% of the cost</span>
+            developers for <span className="fw-bold">1% of the cost</span>
           </h3>
-          <button className='btn btn-primary mt-xl-4 mt-3'>Try it Out Now!</button>
+          <button className="btn btn-primary mt-xl-4 mt-3 py-md-3 px-md-4">
+            Try it Out Now!
+          </button>
         </div>
         <div className="col-lg-3">
           <img
