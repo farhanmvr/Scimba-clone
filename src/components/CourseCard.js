@@ -67,10 +67,12 @@ const CourseCard = ({ course }) => {
           </div>
         </div>
         <div className="row mt-xl-5 mt-3">
-          <div className="col-5 mb-0 position-absolute bottom-0">
+          <div className="col-6 mb-0 position-absolute bottom-0">
             <h6>{level}</h6>
           </div>
-          <div className="col-5 mb-0">{cost !== null ? cost : ''}</div>
+          <div className="col-6 mb-0 position-absolute bottom-0 end-0 d-flex justify-content-end">
+            <h6>{cost !== null ? cost : ''}</h6>
+          </div>
         </div>
       </div>
     </div>
