@@ -8,40 +8,44 @@ const FromFounders = () => (
   >
     <div className="container">
       <div className="row">
-        <div className="col-sm-6 position-relative overflow-hidden">
+        <div className="col-sm-6 position-relative overflow-hidden founders-content">
           <h2 className="fw-bold">Hi! from the founders</h2>
-          <p>
-            Our goal is to create the best possible coding school at the lowest
-            possible cost for students. If we succeed with this, it’ll give
-            anyone who wants to become a software developer a realistic shot at
-            succeeding. Regardless of where they live and the size of their
-            wallets.
-          </p>
-          <div className="my-3" style={{ borderLeft: 'solid 4px #ebe5ff' }}>
-            <h5 className="fw-bold" style={{ marginLeft: '1rem' }}>
-              “To achieve this, we’ve created a new video format for code
-              screencasts. We call it “scrims”.
-            </h5>
+          <div className="position-relative contents">
+            <div className="text">
+              <p>
+                Our goal is to create the best possible coding school at the
+                lowest possible cost for students. If we succeed with this,
+                it’ll give anyone who wants to become a software developer a
+                realistic shot at succeeding. Regardless of where they live and
+                the size of their wallets.
+              </p>
+              <div className="my-3" style={{ borderLeft: 'solid 4px #ebe5ff' }}>
+                <h5 className="fw-bold" style={{ marginLeft: '1rem' }}>
+                  “To achieve this, we’ve created a new video format for code
+                  screencasts. We call it “scrims”.
+                </h5>
+              </div>
+              <p>
+                This format is the backbone of our school. Not only because it
+                results in a superior learning experience. But also because it
+                enables us to iterate more quickly, to attract better teachers,
+                to facilitate better peer-learning, to keep server costs low,
+                and much more.
+              </p>
+            </div>
+            <img
+              className="position-absolute bottom-0"
+              style={{
+                zIndex: '1',
+                maxWidth: '300px',
+                width: '45%',
+                right: '25%',
+                opacity: '.9',
+              }}
+              src="https://scrimba.com/static/art/shape-lilac.svg"
+              alt=""
+            />
           </div>
-          <p>
-            This format is the backbone of our school. Not only because it
-            results in a superior learning experience. But also because it
-            enables us to iterate more quickly, to attract better teachers, to
-            facilitate better peer-learning, to keep server costs low, and much
-            more.
-          </p>
-          <img
-            className="position-absolute bottom-0"
-            style={{
-              zIndex: '-1',
-              maxWidth: '300px',
-              width: '45%',
-              right: '25%',
-              opacity: '.9',
-            }}
-            src="https://scrimba.com/static/art/shape-lilac.svg"
-            alt=""
-          />
         </div>
         <div className="col-sm-5 offset-sm-1 px-xl-5">
           <div className="position-relative">

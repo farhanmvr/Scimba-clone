@@ -15,22 +15,24 @@ const AboutThePlatform = () => (
             className="img-fluid"
           />
         </div>
-        <div className="col-sm-6 position-relative overflow-hidden">
+        <div className="col-sm-6 position-relative overflow-hidden right-section">
           <h2 className="fw-bold">About the platform</h2>
-          <p>
-            Scrimba is the next-generation platform for learning how to code.
-            Our screencasts enable you to interact with the code directly in the
-            player. This way, you'll have more fun and learn faster.
-          </p>
-          <p>
-            Our courses cover subjects like HTML, CSS, JavaScript, React, Vue,
-            and more. They're all made with the goal of advancing your career.
-            So pick a course and give your career a boost!
-          </p>
+          <div className="text">
+            <p>
+              Scrimba is the next-generation platform for learning how to code.
+              Our screencasts enable you to interact with the code directly in
+              the player. This way, you'll have more fun and learn faster.
+            </p>
+            <p>
+              Our courses cover subjects like HTML, CSS, JavaScript, React, Vue,
+              and more. They're all made with the goal of advancing your career.
+              So pick a course and give your career a boost!
+            </p>
+          </div>
           <img
             className="position-absolute bottom-0"
             style={{
-              zIndex: '-1',
+              zIndex: '1',
               maxWidth: '300px',
               width: '45%',
               right: '25%',

@@ -186,6 +186,12 @@ header {
 
 /* FROM FOUNDERS STARTS */
 
+#from-founders-section .founders-content .contents .text,
+#about-platform-section .right-section .text {
+  z-index: 10;
+  position: relative;
+}
+
 #img-founders {
   width: 300px;
   transform: rotate(3deg);
@@ -203,3 +209,26 @@ h2.text-founders {
 }
 
 /* FROM FOUNDERS ENDS */
+
+/* FOOTER STARTS */
+
+footer img.img-logo {
+  width: 10rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+@media (max-width: 770px) {
+  footer a {
+    display: flex;
+    float: left;
+    margin-right: 1rem;
+  }
+  footer div a {
+    margin-bottom: 1rem;
+  }
+}
+
+/* FOOTER ENDS */
