@@ -8,7 +8,7 @@ const AboutThePlatform = () => (
   >
     <div className="container">
       <div className="row">
-        <div className="col-sm-6 px-xl-5 d-flex justify-content-center">
+        <div className="col-md-6 px-xl-5 d-flex justify-content-center">
           <img
             src="https://scrimba.com/static/art/about-video-cover.jpg"
             alt="img"
@@ -16,7 +16,7 @@ const AboutThePlatform = () => (
             style={{ border: 'solid 4px hsla(0.00,0.00%,100.00%,100%)' }}
           />
         </div>
-        <div className="col-sm-6 position-relative overflow-hidden right-section pt-4">
+        <div className="col-md-6 position-relative overflow-hidden right-section pt-4">
           <h2 className="fw-bold">About the platform</h2>
           <div className="text">
             <p>
