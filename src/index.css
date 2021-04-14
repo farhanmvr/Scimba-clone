@@ -102,3 +102,16 @@ header {
 }
 
 /* HEADER ENDS */
+
+/* HEADER BOTTOM STARTS */
+
+#header-bottom {
+  z-index: 10;
+}
+
+#header-bottom .head-line {
+  border-left: solid hsl(28, 52%, 95%) 5px;
+  padding-left: 1rem;
+}
+
+/* HEADER BOTTOM ENDS */
