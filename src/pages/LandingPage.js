@@ -5,6 +5,7 @@ import Header from '../sections/Header';
 import HeaderBottom from '../sections/HeaderBottom';
 import MostPopularCourses from '../sections/MostPopularCourses';
 import NewToCoding from '../sections/NewToCoding';
+import CSS from '../sections/CSS';
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <Bootcamps />
       <Freebies />
       <NewToCoding />
+      <CSS />
     </>
   );
 };
