@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HeaderBottom = () => (
-  <section id="header-bottom" className="container mt-xl-5">
+  <section id="header-bottom" className="container mt-xl-5 mb-4">
     <div className="row">
       <div className="col-md-4 d-flex justify-content-center">
         <img
