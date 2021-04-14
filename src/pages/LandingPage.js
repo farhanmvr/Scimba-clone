@@ -11,6 +11,9 @@ import ReactSection from '../sections/ReactSection';
 import HTML from '../sections/HTML';
 import ComputerScience from '../sections/ComputerScience';
 import Vue from '../sections/Vue';
+import JoinDiscord from '../sections/JoinDiscord';
+import AboutThePlatform from '../sections/AboutThePlatform';
+import FromFounders from '../sections/FromFounders';
 
 const LandingPage = () => {
   return (
@@ -27,6 +30,9 @@ const LandingPage = () => {
       <HTML />
       <ComputerScience />
       <Vue />
+      <JoinDiscord />
+      <AboutThePlatform />
+      <FromFounders />
     </>
   );
 };

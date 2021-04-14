@@ -1,3 +1,9 @@
+html,
+*,
+body {
+  box-sizing: border-box;
+}
+
 /* NAVBAR STARTS */
 
 .navbar.navbar-scroll {
@@ -177,3 +183,23 @@ header {
 }
 
 /* COURSE SECTIONS ENDS */
+
+/* FROM FOUNDERS STARTS */
+
+#img-founders {
+  width: 300px;
+  transform: rotate(3deg);
+  border-radius: 10px;
+  border: 4px solid hsla(0, 0%, 100%, 100%);
+}
+
+h2.text-founders {
+  position: absolute;
+  bottom: -18px;
+  left: 12%;
+  font-size: 30px;
+  font-weight: bolder;
+  text-shadow: 3px 1px 0 #fff;
+}
+
+/* FROM FOUNDERS ENDS */
