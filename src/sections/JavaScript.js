@@ -39,7 +39,7 @@ const list = [
 
 const JavaScript = () => (
   <CourseSection
-    id="css"
+    id="javascript-section"
     color="#ddeae1"
     list={list}
     title="JavaScript"
