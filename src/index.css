@@ -186,6 +186,12 @@ header {
 
 /* FROM FOUNDERS STARTS */
 
+#from-founders-section .founders-content .contents .text,
+#about-platform-section .right-section .text {
+  z-index: 10;
+  position: relative;
+}
+
 #img-founders {
   width: 300px;
   transform: rotate(3deg);
