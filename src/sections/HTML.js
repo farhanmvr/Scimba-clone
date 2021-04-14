@@ -21,7 +21,7 @@ const list = [
   {
     title: 'Introduction to HTML',
     lessons: '17',
-    hours: 56 / 60,
+    hours: (56 / 60).toFixed(2),
     author: 'Eric Vida',
     level: 'Beginner',
     image: 'https://scrimba.com/avatars/ericvida/64',
