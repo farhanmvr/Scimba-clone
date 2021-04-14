@@ -1,5 +1,10 @@
 /* NAVBAR STARTS */
 
+.navbar.navbar-scroll {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .nav-item {
   margin: 0 0.5rem;
 }
@@ -32,6 +37,18 @@
 .navbar ul .nav-item .nav-link.link:hover {
   border-bottom-color: #2b2839;
   padding-top: 0;
+}
+
+@media (max-width: 650px) {
+  #nav-gopro {
+    display: none;
+  }
+}
+
+@media (max-width: 490px) {
+  #nav-signup {
+    display: none;
+  }
 }
 
 /* NAVBAR ENDS */
@@ -118,7 +135,7 @@ header {
 
 /* COURSE SECTIONS STARTS */
 
-.card{
+.card {
   height: 16rem;
 }
 
@@ -148,14 +165,14 @@ header {
 }
 
 .card.course-card .card-body-top {
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .card.course-card:hover .card-body-top {
   margin-top: -10px;
 }
 
-.btn.btn-outline-dark:hover{
+.btn.btn-outline-dark:hover {
   color: black;
 }
 
