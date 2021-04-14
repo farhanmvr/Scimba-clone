@@ -8,7 +8,7 @@ const FromFounders = () => (
   >
     <div className="container">
       <div className="row">
-        <div className="col-sm-6 position-relative overflow-hidden founders-content">
+        <div className="col-md-6 position-relative overflow-hidden founders-content">
           <h2 className="fw-bold">Hi! from the founders</h2>
           <div className="position-relative contents">
             <div className="text">
@@ -47,7 +47,7 @@ const FromFounders = () => (
             />
           </div>
         </div>
-        <div className="col-sm-5 offset-sm-1 px-xl-5">
+        <div className="col-md-5 col-11 offset-1 px-xl-5">
           <div className="position-relative">
             <img
               src="https://scrimba.com/static/art/founders.jpg"

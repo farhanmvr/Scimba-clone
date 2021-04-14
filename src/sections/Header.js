@@ -36,7 +36,7 @@ const Header = () => {
           <h1 className="head-title">
             Don't spend $15,000 on a coding bootcamp
           </h1>
-          <h3>
+          <h3 className='head-sub-title'>
             Our career path helps motivated students become hireable frontend
             developers for <span className="fw-bold">1% of the cost</span>
           </h3>

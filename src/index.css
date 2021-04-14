@@ -140,6 +140,15 @@ header {
   }
 }
 
+@media (max-width:768px) {
+  header .head-title{
+    font-size: 3rem;
+  }
+  header .head-sub-title{
+    font-size: 1.2rem;
+  }
+}
+
 /* HEADER ENDS */
 
 /* HEADER BOTTOM STARTS */
@@ -151,6 +160,12 @@ header {
 #header-bottom .head-line {
   border-left: solid hsl(28, 52%, 95%) 5px;
   padding-left: 1rem;
+}
+
+@media (max-width:768px) {
+  #header-bottom img{
+    display: none;
+  }
 }
 
 /* HEADER BOTTOM ENDS */
@@ -265,6 +280,9 @@ footer a {
   }
   footer div a {
     margin-bottom: 1rem;
+  }
+  footer img.img-logo {
+    width: 8rem;
   }
 }
 
