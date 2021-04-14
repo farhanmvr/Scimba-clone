@@ -39,7 +39,7 @@ const list = [
 
 const Freebies = () => (
   <CourseSection
-    id="bootcamps"
+    id="freebies"
     color="#ddeae1"
     list={list}
     title="Freebies"
