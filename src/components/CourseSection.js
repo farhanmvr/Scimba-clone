@@ -1,5 +1,6 @@
 import React from 'react';
 import CourseCard from './CourseCard';
+import SeeAllBtn from './SeeAllBtn';
 
 const CourseSection = ({ id = '', title, subTitle, color, list }) => (
   <section id={id} className="py-5" style={{ backgroundColor: color }}>
@@ -15,12 +16,7 @@ const CourseSection = ({ id = '', title, subTitle, color, list }) => (
           </div>
         ))}
       </div>
-      <button
-        style={{ borderRadius: '2rem' }}
-        className="btn btn-outline-dark bg-white py-1 px-3"
-      >
-        See All
-      </button>
+      <SeeAllBtn />
     </div>
   </section>
 );

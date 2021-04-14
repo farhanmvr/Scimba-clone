@@ -4,6 +4,21 @@ body {
   box-sizing: border-box;
 }
 
+button.btn.btn-outline-dark.bg-white,
+button.btn.btn-primary {
+  transition: all 0.2s ease-in-out;
+}
+
+button.btn.btn-outline-dark.bg-white:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translate(0, -5px);
+}
+
+button.btn.btn-primary:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 255, 0.19);
+  transform: translate(0, -5px);
+}
+
 /* NAVBAR STARTS */
 
 .navbar.navbar-scroll {
