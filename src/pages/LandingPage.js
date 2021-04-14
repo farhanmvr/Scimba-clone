@@ -11,6 +11,7 @@ import ReactSection from '../sections/ReactSection';
 import HTML from '../sections/HTML';
 import ComputerScience from '../sections/ComputerScience';
 import Vue from '../sections/Vue';
+import JoinDiscord from '../sections/JoinDiscord';
 
 const LandingPage = () => {
   return (
@@ -27,6 +28,7 @@ const LandingPage = () => {
       <HTML />
       <ComputerScience />
       <Vue />
+      <JoinDiscord />
     </>
   );
 };
