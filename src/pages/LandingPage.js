@@ -1,7 +1,8 @@
 import React from 'react';
+import Header from '../sections/Header';
 
 const LandingPage = () => {
-  return <div className='mt-5'></div>;
+  return <Header />;
 };
 
 export default LandingPage;

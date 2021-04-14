@@ -1,11 +1,11 @@
 import { Route, Switch } from 'react-router';
-import Header from './components/nav/Header';
+import Navbar from './components/nav/Navbar';
 import LandingPage from './pages/LandingPage';
 
 const App = () => {
   return (
     <>
-      <Header />
+      <Navbar />
       <Switch>
         <Route exact component={LandingPage} />
       </Switch>
