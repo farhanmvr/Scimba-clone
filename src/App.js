@@ -1,5 +1,5 @@
 import { Route, Switch } from 'react-router';
-import Navbar from './components/nav/Navbar';
+import Navbar from './components/Navbar';
 import LandingPage from './pages/LandingPage';
 
 const App = () => {

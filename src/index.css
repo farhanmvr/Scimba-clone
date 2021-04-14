@@ -115,3 +115,48 @@ header {
 }
 
 /* HEADER BOTTOM ENDS */
+
+/* COURSE SECTIONS STARTS */
+
+.card{
+  height: 16rem;
+}
+
+.card-body h6 {
+  font-size: 0.7rem;
+}
+
+.card.course-card {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.card.course-card svg {
+  transform: translate3d(-50%, -50%, 40px) scale(1) rotate(-17deg) scaleY(0.89);
+  opacity: 0.25;
+  transition: all 0.2s ease-in-out;
+}
+
+.card.course-card:hover svg {
+  transform: translate3d(-50%, -50%, 40px) scale(1.5) rotate(-17deg)
+    scaleY(0.89);
+}
+
+.card.course-card .card-img-top {
+  height: 8.5rem;
+  background-color: #fffbd6;
+}
+
+.card.course-card .card-body-top {
+  transition: all .2s ease-in-out;
+}
+
+.card.course-card:hover .card-body-top {
+  margin-top: -10px;
+}
+
+.btn.btn-outline-dark:hover{
+  color: black;
+}
+
+/* COURSE SECTIONS ENDS */
