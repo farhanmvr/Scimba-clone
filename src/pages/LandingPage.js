@@ -14,6 +14,7 @@ import Vue from '../sections/Vue';
 import JoinDiscord from '../sections/JoinDiscord';
 import AboutThePlatform from '../sections/AboutThePlatform';
 import FromFounders from '../sections/FromFounders';
+import Footer from '../sections/Footer';
 
 const LandingPage = () => {
   return (
@@ -33,6 +34,7 @@ const LandingPage = () => {
       <JoinDiscord />
       <AboutThePlatform />
       <FromFounders />
+      <Footer />
     </>
   );
 };
