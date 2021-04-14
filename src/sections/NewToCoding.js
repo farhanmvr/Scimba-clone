@@ -25,6 +25,7 @@ const list = [
     hours: '1',
     author: 'Dylan C. Israel',
     level: 'Beginner',
+    cost:'free',
     image: 'https://scrimba.com/avatars/PizzaPokerGuy/64',
   },
   {

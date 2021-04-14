@@ -6,6 +6,7 @@ import HeaderBottom from '../sections/HeaderBottom';
 import MostPopularCourses from '../sections/MostPopularCourses';
 import NewToCoding from '../sections/NewToCoding';
 import CSS from '../sections/CSS';
+import JavaScript from '../sections/JavaScript';
 
 const LandingPage = () => {
   return (
@@ -17,6 +18,7 @@ const LandingPage = () => {
       <Freebies />
       <NewToCoding />
       <CSS />
+      <JavaScript />
     </>
   );
 };
